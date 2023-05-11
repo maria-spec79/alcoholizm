@@ -1,0 +1,173 @@
+body {
+	background-color: #ab8b67;
+	font-family: arial, sans-serif;
+}
+
+.main__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.heading {
+	width: 900px;
+	font-weight: 900;
+	font-size: 45px;
+	text-align: center;
+	margin-bottom: 70px;
+	padding-top: 120px;
+}
+
+.pic__container {
+	width: 1050px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.author__container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+.pic_main {
+	margin-bottom: 70px;
+}
+
+.author {
+	font-size: 22px;
+	margin-bottom: 3px;
+}
+
+.author_d {
+	margin-bottom: 25px;
+}
+
+.nav {
+	background-color: #846b51;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 3px 3px #000;
+	display: block;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: #000;
+	height: 43px;
+	padding-top: 13px;
+}
+
+.nav:hover {
+	box-shadow: inset 0 3px 3px #000;
+}
+
+.nav_main {
+	width: 550px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.contain__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.subheading {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.nav_contain {
+	width: 700px;
+	text-indent: 50px;
+	margin-bottom: 15px;
+}
+
+.orientation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 500px;
+	margin-top: 70px;
+}
+
+.nav_orientation {
+	width: 200px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+	padding-top: 16px;
+	height: 40px;
+}
+
+.nav_lastpage {
+	visibility: hidden;
+}
+
+.text {
+	width: 800px;
+	font-size: 31px;
+	text-align: left;
+	margin-bottom: 0;
+	line-height: 1.4;
+}
+
+.unit__container {
+	width: 1170px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.text_pic {
+	width: 520px;
+}
+
+.text_unit {
+	width: 1020px;
+	font-size: 28px;
+}
+
+.pic_reserve {
+	width: 1000px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+table {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-size: 19px;
+}
+
+th {
+	background-color: #778899;
+}
+
+td {
+	padding-left: 20px;
+}
+
+.first {
+	background-color: #cc9955;
+}
+
+.second {
+	background-color: #cc9970;
+}
+
+.third {
+	background-color: #cc9992;
+}
+
+.divide {
+	height: 8px;
+}
